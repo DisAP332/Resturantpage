@@ -19,9 +19,9 @@ export function initPageLoad() {
     background.setAttribute('id', 'modalWrapper')
     contentDiv.appendChild(background)
 
-    const modalWrapper = document.getElementById('modalWrapper');
-    const wrapper = document.createElement('div')
-    wrapper.classList.add('wrapper')
-    wrapper.setAttribute('id', 'wrapper');
-    modalWrapper.appendChild(wrapper);
+    // const modalWrapper = document.getElementById('modalWrapper');
+    // const wrapper = document.createElement('div')
+    // wrapper.classList.add('wrapper')
+    // wrapper.setAttribute('id', 'wrapper');
+    // modalWrapper.appendChild(wrapper);
 }

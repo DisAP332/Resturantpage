@@ -1,9 +1,16 @@
 export function initHome(option) {
-    if (option === 1){
-        const wrapper = document.getElementById('wrapper');
+        console.log('heyo')
+        const background = document.getElementById('modalWrapper')
+        const createWrapper = document.createElement('div')
+        createWrapper.classList.add('wrapper')
+        createWrapper.setAttribute('id', 'wrapper')
+        background.appendChild(createWrapper);
+
+
         const homeDisp = document.createElement('div');
         homeDisp.classList.add('homeDisp');
-        wrapper.appendChild(homeDisp);
+        homeDisp.setAttribute('id', 'homeDisp')
+        createWrapper.appendChild(homeDisp);
 
         const h1 = document.createElement('h1')
         const headerContainer = document.createElement('div')
@@ -42,8 +49,4 @@ export function initHome(option) {
         hours.appendChild(thursday)
         hours.appendChild(friday)
         hours.appendChild(saturday)
-        
-    } else {
-        console.log('nope');
-    }
 }

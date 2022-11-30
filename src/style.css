@@ -33,9 +33,6 @@
 #content > .background > .wrapper{
     width: 80vw;
     height: 80vh;
-    border: 1px solid white;
-    background-color: rgba(255, 255, 255, 0.425);
-    border-radius: 6rem;
 }
 #content > .background > .wrapper > div{
     width: 80vw;
@@ -44,7 +41,7 @@
     background-color: rgba(255, 255, 255, 0.425);
     border-radius: 6rem;
 }
-#content > .background > .wrapper > .homeDisp {
+#content > .background > .wrapper > .homeDisp .menuDisp {
     display: grid;
     grid-template-columns: 1fr 6fr 1fr;
     grid-template-rows: .5fr 6fr 1fr;
